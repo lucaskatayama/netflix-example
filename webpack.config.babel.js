@@ -79,7 +79,7 @@ let loaders = [
 
 let config = {
   entry: './src/main.jsx',
-  output: { path: __dirname + '/dist', filename: PROD ? '[hash].js' : 'bundle.js' },
+  output: { path: __dirname + '/docs', filename: PROD ? '[hash].js' : 'bundle.js' },
   devtool: 'source-map',
   devServer: {
     clientLogLevel: "info",
